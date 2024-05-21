@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: Montserrat;
+    color: #FFF;
+}
+
+section.mid-section {
+    background-image: url('imgs/oficina.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+button {
+    background-color: #C10007;
+    color: #FFF;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+span {
+    color: #C10007;
+    font-size: 24px;
+    line-height: 32px;
+}
